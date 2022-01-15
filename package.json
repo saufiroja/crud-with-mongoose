@@ -1,0 +1,26 @@
+{
+  "name": "crud-with-mongoose",
+  "version": "1.0.0",
+  "description": "crud with mongoose",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "start:dev": "nodemon server"
+  },
+  "author": "Muhammad Saufi Roja",
+  "license": "ISC",
+  "prettier": {
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "dotenv": "^12.0.3",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.6",
+    "morgan": "^1.10.0"
+  }
+}
